@@ -14,7 +14,10 @@ class Header extends Component {
                         <div className='header-logo-img-cont'>
                             <img src={Logo} alt="Company Logo" className="header-logo-img" />
                         </div>
-                        <span className='header-link'>My Profile</span>
+                        <span className='header-link'>About</span>
+                        <span className='header-link'>Contact</span>
+                        <span className='header-link'>Portfolio</span>
+                        <span className='header-link'>Resume</span>
                     </div>
                 </div>
             </header>
