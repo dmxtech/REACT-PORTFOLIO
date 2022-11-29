@@ -5,10 +5,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import Header from "./components/header"
+import Footer from "./components/Footer"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
+    <Footer />
   </React.StrictMode>
 );
 

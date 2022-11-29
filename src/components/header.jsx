@@ -11,13 +11,14 @@ class Header extends Component {
             <header className='header'>
                 <div className='header-content'>
                     <div className='header-logo-container'>
-                        <div className='header-logo-img-cont'>
-                            <img src={Logo} alt="Company Logo" className="header-logo-img" />
-                        </div>
-                        <span className='header-link'>About</span>
+                    <span className='header-link'>About</span>
                         <span className='header-link'>Contact</span>
                         <span className='header-link'>Portfolio</span>
                         <span className='header-link'>Resume</span>
+                        <div className='header-logo-img-cont'>
+                            <img src={Logo} alt="Company Logo" className="header-logo-img" />
+                        </div>
+                        
                     </div>
                 </div>
             </header>
